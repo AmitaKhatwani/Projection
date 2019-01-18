@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*----------------header------------------*/
+
+
+#header {
+    position: absolute;
+    top: 2em;
+    line-height: 3.25em;
+    width: 100%;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none; 
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    padding: 0 15px;
+}
+
+
+/*----------------banner------------------*/
+
+.banner {
+    background-image: linear-gradient(rgba(75, 75, 93, 0.85), rgba(75, 75, 93, 0.85)),url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 655px;
+    background-attachment: fixed;
+    padding: 8em 0;
+}
+
+.banner .inner {
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 2em;
+    font-size: 3.2em;
+    font-weight: 400;
+}
+
+h3 {
+     font-size: 1.5em;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.banner i {
+    color: #6cc091;
+    font-size: 2em;
+}
+
+.banner h3 {
+    color: #fff;
+}
+
+
+.banner-desc {
+    text-align: center;
+    margin: 2.5em 0;   
+}
+
+.middle-line{
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/*-------------------button-------------------*/
+
+.btn {
+    padding: 0.9em 4em;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 3px solid #6cc091;
+    color: #6cc091;
+    border-radius: 25px;
+}
+
+footer .btn-ghost:link,
+footer .btn-ghost:visited {
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+
+.btn-ghost:hover, 
+.btn-ghost:active {
+    background-color: rgba(200, 240, 218, 0.19);
+}
+
+.banner-btn {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.footer-btn {
+    text-align: center;
+    margin-top: 2em;
+    
+}
+
+/*----------------middle section----------------*/
+
+.middle-section {
+    color: #000;
+    text-align: center;
+    margin: 5em 0;
+}
+
+.middle-section img {
+    border-radius: 50%;
+}
+
+.middle-section p {
+    font-size: 16px;
+    margin: 2.5em 0;
+}
+
+/*----------------footer----------------------------*/
+
+footer {
+    background-color: #6cc091;
+    padding: 5em 0;
+    color: #fff;
+}
+
+footer h3 {
+    text-align: center;
+    margin-bottom: 2em;
+    color: #fff;
+}
+
+label {
+    font-size: 16px;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    border: 2px solid rgba(200, 240, 218, 0.25);
+}
+
+::placeholder {
+  color: rgba(200, 240, 218, 2);
+}
+
+
+/*----------generic-subpage------------*/
+
+.subpage {
+    color: #958383;
+}
+
+.subpage-header {
+     background-color: #6cc091;
+     line-height: 3.25em;
+     width: 100%;
+}
+
+
+
+.subpage-section h3 {
+    text-align: center;
+    color: #000;
+    margin: 30px 0 20px;
+    font-size: 2em;
+}
+
+.subpage-section h5 {
+    text-align: center;
+}
+
+.img-one {
+    float: left;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+
+.img-two {
+    float: right;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.subpage-section p {
+    font-size: 16px;
+    padding: 15px 0;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+
+/*--------element subpage------------*/
+
+
+.subclass-element h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 50px;
+    color: #000;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.subclass-element h5 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #000;
+}
+
+p {
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.subclass-element p strong {
+    color: #000;
+}
+
+.subclass-element a:link,
+.subclass-element a:visited {
+   color:  #6cc091; 
+}
+
+.subclass-element a:hover,
+.subclass-element a:active {
+   color:  #6cc091;
+    text-decoration: none;
+}
+
+
+.subclass-element {
+    border-bottom: 2px solid #ececec;
+    padding: 60px 0;
+}
+
+.section-element {
+    padding: 60px 0;
+}
+
+.ele-col {
+    padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
